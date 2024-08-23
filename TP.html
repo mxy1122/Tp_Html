@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    table, th, td {
+  border: 3px solid black;
+  border-collapse: separate;
+  padding: auto;
+  
+}
+tfoot{
+    font-weight: bold;
+    background-color: darkgray;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- punto 1  -->
+    <div>
+        <!-- Encabezado -->
+        <h1>1. Estructura Basica del documento HTML</h1>
+            <!-- Parrafo -->
+            <p>Este documento HTML tiene una estructura basica que la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</p>
+    </div>
+
+    <!-- punto 2 -->
+
+    <div>
+
+        <h1>2. Encabezados y Propiedades del Texto</h1>
+        <h2><b>Este es un texto en negrita</b></h2>
+        
+        <h3><em>Este es un texto en cursiva</em></h3>
+        
+        <h4><ins>Este es un texto subrayado</ins></h4>
+        
+        <h5><mark>Este es un texto marcado</mark></h5>
+        
+        <h6><del>Este es un texto borrado</del></h6>
+
+
+    </div>
+
+    <!-- punto 3 -->
+    
+    <h2>3. Divisiones y Agrupaciòn de Contenido</h2>
+
+    <div>
+        <h4>Secciòn 1</h4>
+        <p>Contenido de la primera secciòn agrupada en un div</p>
+    </div>
+
+    <div>
+        <h4>Secciòn 2</h4>
+        <p>Contenido de la segunda secciòn agrupada en un div</p>
+    </div>
+
+    <!-- punto 4 -->
+
+    <h2>4. Enlaces y listas</h2>
+
+    <p>Visita nuestro <a href="">sitio web</a> para mas informacion</p>
+    
+    <div>
+        <p>Enlances internos:</p>
+
+        <ul>
+
+            <li><a href="">Ir a Estructura</a></li>
+            
+            <li><a href="">Ir a Multimedia</a></li>
+            
+            <li><a href="">Ir a Formulario</a></li>
+
+        </ul>
+    </div>
+
+    <div>
+        
+        <p>Lista desordenada:</p>
+
+        <ul>
+            <li>Primer item de una lista desordenada</li>
+            <li>Segundo item de una lista desordenada</li>
+        </ul>
+
+        <p>Lista ordenada:</p>
+
+        <ol>
+            <li>Primer item de una lista ordenada</li>
+            <li>Segundo item de una lista ordenada</li>
+        </ol>
+
+    </div>
+
+    <h2>5. Elementos Multimedia</h2>
+
+    <div>
+        <img src="https://www.adslzone.net/app/uploads-adslzone.net/2019/04/borrar-fondo-imagen-930x487.jpg" 
+        width="400px" height="250px" alt="esto es una imagen de una publicidad para borrar el fondo">
+
+        <video 
+        src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+        width="200px" height="250px"
+        controls>
+        </video>
+
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls></audio>
+    </div>
+
+    <h2>6. Tablas</h2>
+
+    <div>
+        
+        <table style="width: 15%;">
+        
+            <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columan 2</th>
+            </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>   
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </tbody>
+        
+        </table>
+
+    </div>
+
+    <h2>7. Formularios</h2>
+
+    <form>
+
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="ingrese su nommbre">
+        
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="Email" placeholder="example@gmail.com">
+
+        <label for="Mensaje">Mensaje:</label>
+        <textarea name="Mensaje" id="Mensaje"></textarea>
+
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+
+
+</body>
+</html>
