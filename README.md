@@ -1,2 +1,2 @@
 # Tp_Html
-#Para ejecutar los archivos se necesita tener instalado visual studio code
+Trabajo practico de html sobre diferentes funciones y herramientas para crear , diseñar y ordernar una pagina en hmtl
